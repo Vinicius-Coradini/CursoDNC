@@ -1,2 +1,0 @@
-# CursoDNC
-Destinado aos estudos 
