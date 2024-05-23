@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
     <title>Tabuada</title>
 </head>
 <body>
@@ -14,21 +13,24 @@
         </div>
     </nav>
     <main>
-        <h1 type="submit" id="title">Tabuada</h1>
-        <form onclick="tabuada()">
+        <h1 type="submit">Tabuada</h1>
+        <form id="myForm">
         <div id="all_card">
-          <label for="first_num">Qual taboada você deseja saber?</label>
+          <label for="first_num">Qual tabuada você deseja saber?</label>
           <input id="firstInput" name="first_num" type="number">
           <label for="second_num">Até que número você quer?</label>
           <input id="secondInput" name="socond_num" type="number">
           <div id="button">
-            <button ">calcular</button>
+            <button type="button" onclick="multiplicationTable()">calcular</button>
           </div>
-          <div id="tittle">
-            <h3>Preencha os valores acima</h3>
-          </div>
+          <h3>Preencha os valores acima</h3>
         </div>
-    </form>
+        </form>
+          <div  id="tabuada">
+            <h1 id="title"></h1>
+            <h2 id="multiplicationTable"></h2>
+          </div>
     </main>
 </body>
+<script src="index.js"></script>
 </html>
