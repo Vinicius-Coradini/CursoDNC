@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <navbar>
+        <div id="nav">
+            <img src="./img/dnc_logo.png" alt="dncLogo">
+        </div>
+    </navbar>
+    <main>
+        <h1>Lamp DNC</h1>
+        <div id="allCard">
+            <img src="./img/on.svg" onclick="changeLamp(event)" id="onLamp" alt="on">
+            <img src="./img/off.svg" onclick="changeLamp(event)" id="offLamp" alt="off">
+            <img src="./img/broken.svg" id="brokenLamp" alt="broken">
+            <div id="button">
+                <input onclick="changeLamp(event)" id="on" value="On" type="submit">
+                <input onclick="changeLamp(event)" id="off" value="Off" type="submit">
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

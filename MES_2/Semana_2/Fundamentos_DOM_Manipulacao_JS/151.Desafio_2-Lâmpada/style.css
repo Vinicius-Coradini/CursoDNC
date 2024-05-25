@@ -1,0 +1,52 @@
+* {
+    background-color: #636b77;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#nav img {
+    display: flex;
+    width: 200px;
+    margin: 20px;
+}
+
+main h1 {
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+#allCard {
+    background-color: white;
+    border-radius: 30px;
+    width: 500px;
+    margin: 0px auto;
+
+}
+
+#allCard img {
+    background-color: transparent;
+}
+
+#button {
+    background-color: transparent;
+}
+
+#button input[type="submit"] {
+    padding: 10px 35px 10px 35px;
+    border-radius: 18px;
+    background-color: rgba(21, 21, 192, 0.586);
+    color: black;
+    margin-bottom: 30px;
+}
+
+#offLamp,
+#brokenLamp {
+    display: none;
+    margin: 0 auto;
+}
+
+#onLamp {
+  margin: 0 auto;
+}
