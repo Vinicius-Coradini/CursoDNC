@@ -21,8 +21,9 @@ main h1 {
     background-color: white;
     border-radius: 30px;
     width: 500px;
+    height: 380px;
     margin: 0px auto;
-
+   
 }
 
 #allCard img {
@@ -38,7 +39,6 @@ main h1 {
     border-radius: 18px;
     background-color: rgba(21, 21, 192, 0.586);
     color: black;
-    margin-bottom: 30px;
 }
 
 #offLamp,

@@ -1,33 +1,19 @@
+var onLamp = document.getElementById('lamp')
+
+function brokenLamp() {
+    return onLamp.src.indexOf('broken') > -1
+}
+
 function changeLamp(event) {
-    var onLamp = document.getElementById('onLamp')
-    var offLamp = document.getElementById('offLamp');
-    var brokenLamp = document.getElementById('brokenLamp')
+    if (event === 'off' && !brokenLamp()) {
+        onLamp.src = '/img/off.svg'
+    }
+    else if (event === 'on' && !brokenLamp()) {
+        onLamp.src = '/img/on.svg'
+    }
+}
 
-    var clickedButton = event.target; // O elemento que foi clicado
-
-    if (clickedButton.id === 'off') {
-        onLamp.style.display = "none"
-        brokenLamp.style.display = "none"
-        offLamp.style.display = "block"
-        console.log('off')
-    }
-    else if (clickedButton.id === 'on') {
-        onLamp.style.display = "block"
-        brokenLamp.style.display = "none"
-        offLamp.style.display = "none"
-        console.log('on')
-    }
-    else if (clickedButton.id === 'onLamp') {
-        onLamp.style.display = "none"
-        brokenLamp.style.display = "block"
-        brokemLamp.style.margin = '0 auto'
-        offLamp.style.display = "none"
-        console.log('broken')
-    }
-    else if (clickedButton.id === 'offLamp') {
-        onLamp.style.display = "none"
-        brokenLamp.style.display = "block"
-        offLamp.style.display = "none"
-        console.log('broken')
-    }
+onLamp.addEventListener('click', broken)
+function broken() {
+    onLamp.src = '/img/broken.svg'
 }
