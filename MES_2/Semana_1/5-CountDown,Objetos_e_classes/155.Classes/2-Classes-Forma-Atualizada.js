@@ -4,7 +4,7 @@ class player {
     constructor(name, position, numGol){
         //AQUI DENTRO DECLARAMOS OS PARÂMETROS
         this.name = name,
-        this.position = position,
+        this.posigittion = position,
         this.numGol = numGol
     }
     goalsScored(){
