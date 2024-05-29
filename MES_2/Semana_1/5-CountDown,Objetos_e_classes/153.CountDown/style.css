@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(12,112,242);
+    background-color: rgb(12, 112, 242);
 }
 
 img {
@@ -13,9 +13,11 @@ img {
     color: black;
     margin: 0 auto;
     width: 329px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 30px;
-    font-weight: 800px;
+
 }
 
 #number {
@@ -25,4 +27,3 @@ img {
     text-align: center;
     margin: 80px;
 }
-
