@@ -3,7 +3,7 @@ const horas = document.querySelector('#horas')
 const minutos = document.querySelector('#minutos')
 const segundos = document.querySelector('#segundos')
 
-const lancamento = '17 sep 2024'
+const lancamento = '22 jan 2025'
 
 function counter() {
     //PARA TRANSFORMAR UMA STRING EM DATA USAMOS O " Date "
