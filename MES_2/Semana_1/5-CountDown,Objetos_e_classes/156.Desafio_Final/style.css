@@ -99,3 +99,11 @@ video {
     color: white;
     cursor: pointer;
 }
+
+#button button:hover {
+    color: #FFD900;
+    background-color: white;
+    text-shadow: 20px 20px 20px #FFD900;
+    transition: 0.5s;
+}
+
