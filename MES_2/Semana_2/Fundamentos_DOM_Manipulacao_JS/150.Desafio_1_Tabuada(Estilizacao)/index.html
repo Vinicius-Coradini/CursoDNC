@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <title>Tabuada</title>
+</head>
+
+<body>
+  <nav>
+    <div>
+      <img src="./dnc_logo.png" alt="DNC-LOGO">
+    </div>
+  </nav>
+  <main>
+    <h1 type="submit" id="title">Tabuada</h1>
+    <form onclick="tabuada()">
+      <div id="all_card">
+        <label for="first_num">Qual tabuada você deseja saber?</label>
+        <input id="firstInput" name="first_num" type="number">
+        <label for="second_num">Até que número você quer?</label>
+        <input id="secondInput" name="socond_num" type="number">
+        <div id="button">
+          <button>calcular</button>
+        </div>
+        <div id="tittle">
+          <h3>Preencha os valores acima</h3>
+        </div>
+        <div onclick="vanishCard()" id="tabuada">
+          <h1>Resultado
+          </h1>
+        </div>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
